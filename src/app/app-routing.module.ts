@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {LoginComponent} from './login/login.component';
-import {DashboardComponent} from './dashboard/dashboard.component';
-import {NavbarComponent} from './navbar/navbar.component';
-import {ManageCustomerComponent} from './manage-customer/manage-customer.component';
-import {ManageItemComponent} from './manage-item/manage-item.component';
+import {LoginComponent} from './views/login/login.component';
+import {DashboardComponent} from './views/dashboard/dashboard.component';
+import {NavbarComponent} from './views/navbar/navbar.component';
+import {ManageCustomerComponent} from './views/manage-customer/manage-customer.component';
+import {ManageItemComponent} from './views/manage-item/manage-item.component';
 
 const appRoutes: Routes = [
   {
